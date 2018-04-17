@@ -60,6 +60,10 @@ def for_iterator(number_of_times)
   
   phrase = "Welcome to Flatiron School's Web Development Course!"
   
+  arr = 1..number_of_times
+  for numb in arr
+  puts phrase
+end
   
   
 end
